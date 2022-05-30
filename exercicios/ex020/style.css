@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    # -> id
+    . -> classe
+    : -> Pseudoclasse 
+    :: -> Pseudoelemento 
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Pseudoclasse para mudar de cor para sites que já visitamos*/
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Pseudoclasse para quando eu clicar*/
+a:active {
+    color: yellow;
+}
+
+.especial {
+    background-color: rgb(221, 147, 147);
+}
+
+.especial::before {
+    content: '⇒ ';
+}
+
+.especial::after {
+    content: ' ⇐';
+    color: black;
+}

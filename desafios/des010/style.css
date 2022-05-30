@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(133, 240, 133);
+}
+
+header {
+    background-image: linear-gradient(to top, #008000, #71a371);
+    margin: 0px; 
+}
+
+h1#titulo-principal {
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+    margin: 0px;
+    padding-top: 25px;
+}
+
+p#texto-inicial {
+    text-align: center;
+    color: white;
+    padding: 6px;
+    font-size: 1.3em;
+}
+
+nav {
+    padding-top: 0.7em;
+    padding-left: 20px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 30px; /*Os espaços entre as ancoras*/
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1#inicio{
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: green;
+    padding-left: 10px;
+}
+
+.titulo {
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: green;
+    background-image: linear-gradient(to right, rgba(174, 214, 174, 0.616), rgba(255, 255, 255, 0.616));
+    padding-left: 10px;
+}
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px; /*Paragráfo*/
+    text-align: justify;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(12, 78, 12);
+    text-align: center;
+    color: white;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+div {
+    background-color: rgb(133, 240, 133);
+}
+
+p#titulo-extra {
+    background-color: #008000;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}

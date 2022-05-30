@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+h1 { /*Box-level*/
+    background-color: lightgrey;
+    
+    height: 300px;
+    width: 300px;
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+
+    /*shorthand de border é feita na ordem border-width -> border-style -> boder-color*/
+
+    border: 10px solid darkslategray;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    /*shorthand de padding é feita na ordem padding-top -> padding-right -> padding-bottom -> padding-left*/
+    
+    /*obs: se todos os lados tiverem a mesma medida basta colocar o valor só uma vez*/
+
+    padding: 10px;
+
+    /* Para deixar o conteúdo da caixa centralizado no meio
+    margin: auto;*/
+    
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 42px;
+    margin-left: 20px;
+
+    /*shorthand de margin é feita na ordem margin-top -> margin-right -> margin-bottom -> margin-left*/
+
+    margin: 20px auto 42px auto;
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+
+    /*shorthand de outline é feita na ordem outline-width -> outline-style -> outline-color*/
+
+    outline: 5px dashed salmon;
+}
+
+/* border-style nós temos: solid, dotted, dashed, double*/
+a { /* Inline-level*/
+    
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
