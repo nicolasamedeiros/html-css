@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alinhamento vertical</title>
+    <title>Astronauta</title>
     <style>
-        /*container sempre vai ter a posição relativa*/
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
         #container {
-            background-image: url('imagens/target001.png');
+            background-image: url('imagens/espaco.jpg');
             position: relative;
-            background-size: 100% 100%;
+            background-size: cover;
             height: 100vh;
             background-color: purple;
             padding: 10px;
         }
-        
-        /*Já o conteudo vai ter o posicionamento absoluto*/
+
         #conteudo {
-            background-image: url('imagens/target001.png');
+            background-image: url('imagens/astronauta.png');
             background-size: 100% 100%;
             position: absolute;
-            height: 200px;
-            width: 400px;
-            background-color: yellow;
+            height: 500px;
+            width: 500px;
             left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+            right: 50%;
+            transform: translate(-50%, 40%);
         }
     </style>
 </head>
